@@ -1,0 +1,27 @@
+.profile-container {
+    max-width: 500px;
+    margin: 5% auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-container h2 {
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .profile-box {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .profile-box p {
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+  }
+  

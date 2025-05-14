@@ -1,0 +1,33 @@
+.carousel-section {
+  margin: 2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-container {
+  display: flex;
+  gap: 1rem;
+  animation: scroll 20s linear infinite;
+  width: max-content;
+}
+
+.carousel-item {
+  min-width: 150px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.carousel-item img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

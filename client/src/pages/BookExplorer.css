@@ -1,0 +1,64 @@
+.explorer-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+  
+  .controls select,
+  .controls input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    min-width: 180px;
+  }
+  
+  .book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .book-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .book-card img {
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+  }
+  
+  .book-card h4 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .book-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .book-card .date {
+    font-size: 0.8rem;
+    color: #999;
+  }
+  
